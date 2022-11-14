@@ -27,5 +27,26 @@ upperBound = 1000000000000000000000
 proposerReward = 20000000000000000000
 optimisticOracleProposerBond = 40000000000000000000
 
-$f = ""(Empty)       #first ch of firstname
-$l = ""(Empty)       #first ch of lastname
+$firstname = ""(Empty)  #First name of player
+$lastname = ""(Empty)   #Last name of player
+$f = ""(Empty)          #first ch of firstname
+$l = ""(Empty)          #first ch of lastname
+
+echo $node 
+echo $gasPrice 
+echo $url 
+echo $mnemonic 
+echo $pairName 
+echo $expirationTimestamp 
+echo $collateralPerPair 
+echo $priceIdentifier 
+echo $longSynthName 
+echo $longSynthSymbol 
+echo $shortSynthName 
+echo $shortSynthSymbol 
+echo $collateralToken 
+echo $FPL 
+echo $lowerBound 
+echo $upperBound 
+echo $proposerReward 
+echo $optimisticOracleProposerBond
